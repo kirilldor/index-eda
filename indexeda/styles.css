@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto,arial, sans-serif;
+    color:black;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+header{
+    max-width:1190px;
+    margin:0 auto ;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 0 20px;
+}
+.logo{
+    display: flex;
+    width: 130px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    gap: 5px;
+}
+.logo span{
+    align-self: center;
+}
+.search{
+    background: rgba(238, 238, 238, 0.71);
+    border-radius: 10px;
+    width: 100%;
+    padding:13px 55px 13px 20px ;
+    border: none;
+
+}
+.search-icon{
+    background:transparent;
+    border: none;
+    position: absolute;
+    top:13px;
+    right: 20px;
+}
+.search-form{
+    position: relative;
+    min-width: 620px;
+}
+.enter{
+    width: 99px;
+    font-size: 14px;
+    padding: 16px 25px;
+    border: none;
+    border-radius: 50px;
+}
+.cart-icon{
+    width: 50px;
+    height: 54px;
+    background:  url(images/cart.png) no-repeat;
+    position: relative;
+    border: none;
+}
+.cart-index{
+    font-size: 8px;
+    background: #ffaf19;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 5px;
+}
+.user-nav{
+    display: flex;
+    gap: 31px;
+}
+.slader{
+    max-width: 1190px;
+    margin:0 auto ;
+}
+.slider-item h1{
+    font-size: 50px;
+    line-height: 51px;
+    color: #fff;
+    width: 380px;
+
+}
+.slider-item h2{
+    font-size: 16px;
+    line-height: 23px;
+    color: #fff;
+    width: 389px;
+    margin-bottom:32px ;
+}
+
+.slader-bth{
+    width: 246px;
+    background: #F47322;
+    border-radius: 25px;
+    padding: 13px 52px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.slider-bg1{
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg1.png);
+}
+.slider-bg2{
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg2.png);
+}
+.slider-bg3{
+    background-image:linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url(images/slider-bg3.png);
+}
+.slider-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 77px 100px;
+}
