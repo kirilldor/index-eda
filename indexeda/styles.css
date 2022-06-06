@@ -5,6 +5,9 @@ body{
     font-family: Roboto,arial, sans-serif;
     color:black;
 }
+a{
+    text-decoration: none;
+}
 button{
     border: none;
     cursor: pointer;
@@ -281,4 +284,80 @@ header{
 .categories h2{
     font-weight: 500;
     font-size: 32px;
+}
+.categories ul{
+    list-style: none;
+    margin: 50px 0 68px;
+    padding: 0;
+    display: flex;
+    gap: 58px;
+}
+.categories a{
+    font-size: 20px;
+    color: #49494F;
+}
+.active {
+    color: #F37321;
+}
+.food-item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    flex-basis: 270px;
+}
+.food-item img{
+    border-radius: 20px 20px 0 0;
+    max-width: 100%;
+}
+.food-item h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin: 21px 23px 13px;
+}
+.food-item p{
+    font-weight: 500;
+    line-height: 23px;
+    font-size: 14px;
+    color: #B9B9BE;
+    margin: 13px 27px 36px 23px;
+}
+.food-info .price{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;
+}
+.food-info .weight{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+}
+.food-info .food-cart{
+    border: 2px solid #F37321;
+    border-radius: 33px;
+    background: #fff;
+    color:#F37321;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 25px 15px;
+}
+.food-info{
+    margin: 36px 24px 0 23px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 21px;
+}
+.food-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.food-exemple{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+
 }
