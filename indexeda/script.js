@@ -8,4 +8,5 @@ $(document).ready(function() {
         smartSpeed:500,
         
     });
+     $( "#tabset" ).tabs();
 });

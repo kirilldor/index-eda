@@ -296,7 +296,7 @@ header{
     font-size: 20px;
     color: #49494F;
 }
-.active {
+.ui-tabs-active .ui-tabs-anchor {
     color: #F37321;
 }
 .food-item{
@@ -360,4 +360,53 @@ header{
     flex-wrap: wrap;
     gap: 37px;
 
+}
+.benefits{
+    max-width: 1196px;
+    margin: 0 auto;
+}
+.benefits-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 37px;
+}
+.benefits-item svg{
+    fill: #F37321;
+    stroke: #F37321;
+}
+.benefits-item:hover svg{
+    fill:#fff;
+    stroke: #fff;
+    stroke-width: 1;
+
+}
+.benefits-item{
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding:  30px 23px 25px 24px;
+    text-align: center;
+    flex-basis: 270px;
+}
+.benefits-item:hover{
+    background: #F37321;
+    border: 1px solid #F37321;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+.benefits-item h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+.benefits-item p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #49494F;
+}
+.benefits-item:hover p{
+    color: #fff;
 }
