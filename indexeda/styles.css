@@ -50,6 +50,9 @@ header{
     position: relative;
     min-width: 620px;
 }
+.search-mobile{
+    display: none;
+}
 .enter{
     width: 99px;
     font-size: 14px;
@@ -364,11 +367,13 @@ header{
 .benefits{
     max-width: 1196px;
     margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 202px;
 }
 .benefits-cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 37px;
 }
 .benefits-item svg{
@@ -409,4 +414,46 @@ header{
 }
 .benefits-item:hover p{
     color: #fff;
+}
+footer{
+    background: #F6F6F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.end{
+    max-width: 1196px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.end ul{
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-self: center;
+    
+}
+.footer-info {
+    display: flex;
+    gap: 50px;
+}
+footer a{
+    color: #000000;
+    text-decoration: underline;
+}
+.social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.food-info img{
+    width: 101px;
+    height: 101px;
+}
+.food-info span{
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 28px;
 }

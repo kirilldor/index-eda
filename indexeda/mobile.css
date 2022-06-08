@@ -1,0 +1,22 @@
+header{
+    max-width:768px;
+    padding: 9px 22px 39px;
+}
+header .logo span{
+    display: none;
+} 
+.cart-item{
+    display: none;
+}
+.search-form{
+    display: none;
+}
+.cart-icon{
+    display: none;
+}
+.search-mobile{
+    width: 37px;
+    height: 37px;
+    background: url(images/search-icon.png) no-repeat;
+    display: block;
+}
