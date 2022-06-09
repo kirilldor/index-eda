@@ -10,13 +10,65 @@ header .logo span{
 }
 .search-form{
     display: none;
+    position: absolute;
+    top: 70px;
+    left: 22px;
+    z-index: 10;
+    width: calc(100%-44px);
+    right: 22px;
+    
+    
 }
 .cart-icon{
-    display: none;
+    position: absolute;
+    top:110px ;
+    right: 18px;
+    z-index: 5;
 }
 .search-mobile{
     width: 37px;
     height: 37px;
-    background: url(images/search-icon.png) no-repeat;
+    background: url(images/search-icon.png) no-repeat center;
     display: block;
+}
+.bonus{
+    flex-wrap: wrap;
+}
+.search{
+    background:#eeeeee;
+    
+}
+.search-close{
+    background: url(images/close.svg) no-repeat center;
+}
+.slader{
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+    height: 325px;
+}
+.slider-item{
+    border-radius: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    height: 415px;
+    margin-bottom: 17px;
+}
+.slider-item h1{
+    font-size: 35px;
+    line-height: 51px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.slider-item h2{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom:32px ;
+}
+.slader-bth{
+    display: block;
+    width: 260px;
+    margin: 0 auto;
 }
