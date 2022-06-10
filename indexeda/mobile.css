@@ -33,6 +33,9 @@ header .logo span{
 }
 .bonus{
     flex-wrap: wrap;
+    margin-top: 17px;
+    
+
 }
 .search{
     background:#eeeeee;
@@ -45,13 +48,11 @@ header .logo span{
     padding-left: 0;
     padding-right: 0;
     max-width: 100%;
-    height: 325px;
+    
 }
 .slider-item{
     border-radius: 0;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 10px;
+    padding: 40px 20px;
     height: 415px;
     margin-bottom: 17px;
 }
@@ -71,4 +72,49 @@ header .logo span{
     display: block;
     width: 260px;
     margin: 0 auto;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    margin-left: 16px;
+}
+.owl-carousel .owl-nav button.owl-next{
+    margin-right: 16px;
+    margin-left: 17px;
+}
+.owl-nav{
+    right: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.delivery{
+    width: 100%;
+    padding-left: 22px;
+}
+.gallery figure{
+    flex-basis: 270px;
+    width: 100%;
+}
+.benefits h2{
+    padding-left: 30px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+}
+.benefits{
+    padding-top: 0;
+}
+.catolog{
+    padding-bottom: 20px;
+}
+.food-exemple{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.social{
+    margin-top:29px ;
+}
+.food-item img{
+    display: block;
+    max-width: 50%;
+    margin-left: 25%;
 }

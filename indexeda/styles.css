@@ -220,6 +220,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
+    
 }
 .galary figure{
     border-radius: 18px;
@@ -301,6 +302,7 @@ header{
     display: flex;
     gap: 58px;
     flex-wrap: wrap;
+    
 }
 .categories a{
     font-size: 20px;
@@ -367,7 +369,6 @@ header{
 }
 .food-exemple{
     display: flex;
-    flex-wrap: wrap;
     gap: 37px;
 
 }
@@ -447,6 +448,7 @@ footer{
 .footer-info {
     display: flex;
     gap: 50px;
+    flex-wrap: wrap;
 }
 footer a{
     color: #000000;
@@ -465,4 +467,8 @@ footer a{
     font-weight: 700;
     font-size: 23px;
     line-height: 28px;
+}
+.end ul{
+    gap: 14px;
+    flex-direction: column;
 }
